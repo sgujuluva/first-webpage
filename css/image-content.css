@@ -1,12 +1,54 @@
-.text-images img{
-    width:15vw;
+.images{
+       position:relative;
 }
 
-.text-images >div:first-child{
+.images img{
+    width:15vw;
+   
+}
+
+.images >div:first-child{
   /* border:1px solid black; */
   order:1;
 }
+  
 
-.text-images >div:last-child{
-
+.images >div:last-child{
+ position:absolute;
+  right:35%;
+  
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .parent {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .image1 {
+    position: relative;
+    top: 0;
+    left: 0;
+    border: 1px red solid;
+  }
+  .image2 {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    border: 1px green solid;
+  } */

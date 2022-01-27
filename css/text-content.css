@@ -1,5 +1,5 @@
 .text-content {
-    border: 1px solid blue;
+  /*   border: 1px solid blue; */
     width:50vw;
     color:white;
     font-family: var(--textcontent-font);
@@ -32,3 +32,5 @@
 .buttons :last-child{
     background-color: blue;
 }
+
+
