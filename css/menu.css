@@ -1,0 +1,28 @@
+header{
+   /*  border:2px solid red; */
+   margin-top: 2%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:10vh;
+}
+header > nav{
+   /*  border:2px dashed blue; */
+    flex-grow: 0.5;
+   
+ }
+ header > nav>ul{
+     display:flex;
+    justify-content:space-around;
+    
+ }
+ header > nav>ul>li{
+     display:inline;
+    
+ }
+ header > nav>ul>li>a{
+     color:white;
+     text-decoration: none;
+     font-family: var(--menu-font);
+ }
+
