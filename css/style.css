@@ -5,9 +5,18 @@
 @import url(./menu.css);
 @import url(./anchor.css);
 @import url(./main-content.css);
+@import url(./text-content.css);
 
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    transition: 0.5s;
+}
 body{
     background-image: url(../img/bg_001.jpg) ;
     width:100vw;
     height:100vh;
+    font-family: var(--textcontent-font);
 }

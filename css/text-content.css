@@ -1,0 +1,32 @@
+.text-content {
+    color:white;
+    font-family: var(--textcontent-font);
+    display:flex;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-flow: wrap;
+}
+
+.text-content h2{
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.buttons {
+  width:40vw; 
+  display:flex;
+    justify-content:space-evenly;
+   align-items: center; 
+}
+.buttons input{
+    width:10vw;
+    height:7vh;
+    color:white;
+    font-size: 1.5rem;
+    
+}
+.buttons :first-child{
+    background-color: green;
+}
+.buttons :last-child{
+    background-color: blue;
+}
