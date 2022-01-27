@@ -1,4 +1,6 @@
 .text-content {
+    border: 1px solid blue;
+    width:50vw;
     color:white;
     font-family: var(--textcontent-font);
     display:flex;

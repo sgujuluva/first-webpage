@@ -1,0 +1,12 @@
+.text-images img{
+    width:15vw;
+}
+
+.text-images >div:first-child{
+  /* border:1px solid black; */
+  order:1;
+}
+
+.text-images >div:last-child{
+
+}

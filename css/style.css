@@ -6,6 +6,7 @@
 @import url(./anchor.css);
 @import url(./main-content.css);
 @import url(./text-content.css);
+@import url(./image-content.css);
 
 *{
     margin:0;
