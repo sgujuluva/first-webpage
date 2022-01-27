@@ -3,22 +3,21 @@ header{
    margin-top: 2%;
     display:flex;
     justify-content: center;
-    align-items: center;
+   
     height:10vh;
 }
 header > nav{
    /*  border:2px dashed blue; */
-    flex-grow: 0.5;
-   
+   flex-grow: 0.3;   
  }
  header > nav>ul{
-     display:flex;
-    justify-content:space-around;
-    
+     margin-left: 30%;  
+    display:flex;
+    justify-content:space-around; 
+    align-items: center;  
  }
  header > nav>ul>li{
-     display:inline;
-    
+     display:inline;    
  }
  header > nav>ul>li>a{
      color:white;
