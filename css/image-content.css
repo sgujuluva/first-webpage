@@ -1,24 +1,24 @@
 .images{
+    width:30vw;
        position:relative;
+       margin-left:40px;      
 }
 
 .images img{
-    width:15vw;
-   
+    width:15vw;  
 }
 
 .images >div:first-child{
   /* border:1px solid black; */
-  order:1;
+  position:absolute;
+  right:25%;
 }
-  
-
+ 
 .images >div:last-child{
- position:absolute;
-  right:35%;
+
+ z-index:1;
   
 }
-
 
 
 

@@ -1,12 +1,13 @@
 .text-content {
   /*   border: 1px solid blue; */
-    width:50vw;
+    width:40vw;
     color:white;
     font-family: var(--textcontent-font);
     display:flex;
     justify-content: space-around;
     flex-direction: column;
     flex-flow: wrap;
+  
 }
 
 .text-content h2{
