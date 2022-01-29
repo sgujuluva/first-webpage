@@ -16,5 +16,11 @@
 >
 >6. Again using **Flexbox** arranged the *Text-items* on left side and *Image-items* on right side
 >
->7. 
+>7. *Position:absolute & position:relative* is used to position the images 
+>
+>8. Used *z-index* to the 2nd phone image to appear above the other image
+>
+>9. Used **first child & last child** to identify each image
+>
+> *Reference sources:* [mdn](https://developer.mozilla.org/)
 
