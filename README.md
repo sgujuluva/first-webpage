@@ -22,5 +22,5 @@
 >
 >9. Used **first child & last child** to identify each image
 >
-> *Reference sources:* [mdn](https://developer.mozilla.org/)
+> *Reference sources:* [mdn Developer-mozilla](https://developer.mozilla.org/)
 
