@@ -14,6 +14,10 @@
     font-size: 2rem;
     font-weight: bolder;
 }
+.text-content p{
+    font-size: 1rem;
+    line-height: 2rem;
+}
 .buttons {
   width:40vw; 
   display:flex;
