@@ -1,0 +1,54 @@
+body{
+    border:1px solid black;
+    width:100vw;
+    height:100vh;
+    display:grid;
+    grid-template-columns: repeat(4,2fr) ;
+    grid-template-rows: repeat(2,50px);
+    grid-template-areas: 
+    "header header header header"
+    "t-content t-content phone phone";
+}
+
+header>div >img{
+    width:100px;
+}
+header{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+header nav ul {
+   /*  border: 1px solid black; */
+    display:flex;
+    font-size: 1.5rem;   
+}
+
+header nav ul li{   
+    list-style-type: none;
+}
+header nav ul li a{
+text-decoration: none;  
+color:white;
+}
+header{
+    grid-area:header;
+    background-color: aqua;
+}
+.text-content{
+    grid-area:t-content;
+    background-color: blueviolet;
+}
+.images{
+    grid-area:phone;
+    background-color: chartreuse;
+}
+.images div img{
+    width:20vw;
+    height:80vh;
+}
+section article{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
