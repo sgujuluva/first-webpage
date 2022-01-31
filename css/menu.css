@@ -1,5 +1,5 @@
-header{
-   /*  border:2px solid red; */
+/* header{
+   
    margin-top: 2%;
     display:flex;
     justify-content: center;
@@ -7,7 +7,7 @@ header{
     height:10vh;
 }
 header > nav{
-   /*  border:2px dashed blue; */
+
    flex-grow: 0.3;   
  }
  header > nav>ul{
@@ -18,5 +18,5 @@ header > nav{
  }
  header > nav>ul>li{
      display:inline;    
- }
+ } */
 
