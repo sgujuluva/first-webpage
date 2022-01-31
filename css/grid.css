@@ -4,7 +4,7 @@ body{
     height:100vh;
     display:grid;
     grid-template-columns: repeat(4,2fr) ;
-    grid-template-rows: repeat(2,50px);
+    grid-template-rows: repeat(2,3fr);
     grid-template-areas: 
     "header header header header"
     "t-content t-content phone phone";
@@ -43,12 +43,18 @@ header{
     grid-area:phone;
     background-color: chartreuse;
 }
+
+section{
+ 
+display:flex;
+justify-content: center;
+align-items: center;
+width:80vw;
+     
+}
+.images {
+    display:flex;
+}
 .images div img{
     width:20vw;
-    height:80vh;
-}
-section article{
-    display:flex;
-    justify-content: center;
-    align-items: center;
 }
